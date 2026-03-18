@@ -1,0 +1,156 @@
+<!DOCTYPE html><html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Safesip</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,600&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: radial-gradient(circle at top, #111 0%, #000 100%);
+  color: #fff;
+}header { padding: 20px; text-align: center; border-bottom: 1px solid rgba(255,255,255,0.1); }
+
+.logo { font-family: 'Playfair Display', serif; font-size: 3rem; font-style: italic; font-weight: 600; text-decoration: underline; letter-spacing: 1px; }
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 35px; /* THIS is the key */
+  padding: 80px 20px 60px;
+}
+
+.hero img { width: 90%; max-width: 350px; border-radius: 15px; margin-bottom: 20px; transition: transform 0.4s ease, box-shadow 0.4s ease; }
+
+.hero img:hover { transform: scale(1.05); box-shadow: 0 0 25px rgba(255, 215, 0, 0.3); }
+
+.hero h1 { font-size: 2.6rem; font-weight: 500; }
+
+.hero p { color: #bbb; max-width: 500px; margin: 10px auto; font-size: 1.25rem; }
+
+.btn {
+  display: inline-block;
+  padding: 22px 55px;
+  border-radius: 50px;
+  background: linear-gradient(135deg, #ffffff, #d4af37);
+  color: black;
+  font-size: 1.25rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  transform: translateY(140px)
+}
+
+.btn:hover{transform: translateY(-3px) scale(1.05);box-shadow: 0 10px 30px rgba(212, 175, 55, 0.5);}
+
+.instagram {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 12px;
+  padding: 12px 25px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: 600;
+
+  /* Premium silver + gold gradient */
+  background: linear-gradient(135deg, #c0c0c0, #e8e8e8, #d4af37);
+  color: black;
+
+  box-shadow: 0 6px 20px rgba(255,255,255,0.15);
+  transition: all 0.3s ease;
+}
+
+.instagram:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 25px rgba(212,175,55,0.4);
+}
+
+/* Optional: make WhatsApp same level premium */
+.whatsapp {
+  font-weight: 600;
+  background: linear-gradient(135deg, #d4af37, #e6c65c);
+  color: black;
+  border-radius: 30px;
+}
+.btn:hover { transform: translateY(-2px); box-shadow: 0 0 15px rgba(212, 175, 55, 0.6); }
+
+.section { padding: 80px 20px; text-align: center; }
+
+.section h2 { font-size: 1.6rem; }
+
+.gallery { display: flex; flex-direction: column; gap: 15px; margin-top: 20px; }
+
+.gallery img { width: 100%; border-radius: 12px; transition: transform 0.4s ease, box-shadow 0.4s ease; }
+
+.gallery img:hover { transform: scale(1.04); box-shadow: 0 0 20px rgba(255,255,255,0.15); }
+
+.features { display: flex; flex-direction: column; gap: 15px; margin-top: 20px; }
+
+.feature { background: rgba(255,255,255,0.05); padding: 15px; border-radius: 12px; transition: all 0.3s ease; }
+
+.feature:hover { background: rgba(255,255,255,0.08); transform: translateY(-3px); }
+
+.footer { padding: 30px 20px; text-align: center; border-top: 1px solid rgba(255,255,255,0.1); }
+
+.whatsapp { background: linear-gradient(135deg, rgba(212,175,55,0.9), rgba(255,255,255,0.6)); backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px); padding: 12px 25px; border-radius: 30px; color: black; text-decoration: none; display: inline-flex; align-items: center; gap: 10px; font-weight: 500; transition: 0.3s ease; border: 1px solid rgba(255,255,255,0.2); }
+
+.whatsapp:hover { box-shadow: 0 0 20px rgba(212,175,55,0.6); transform: scale(1.05); }
+
+.whatsapp::before { content: "📱"; font-size: 1.1rem; }
+
+.whatsapp:hover { box-shadow: 0 0 15px rgba(212,175,55,0.6); transform: scale(1.05); }
+
+.whatsapp:hover { transform: scale(1.05); box-shadow: 0 0 15px rgba(37, 211, 102, 0.6); }
+
+@media(min-width:768px){ .hero h1 { font-size: 2.8rem; } } </style>
+
+</head>
+<body><header>
+  <div class="logo">Safesip</div>
+</header><section class="hero">
+  <h1>"No spill. No Worries. Just Sip."</h1>
+  <p>A premium anti-spill drink cover designed for elite cafes, bars, and bistros that care about customer safety and experience.</p>
+  <a href="https://wa.me/919572110442" class="btn">Reserve Now</a>
+</section><section class="section">
+</section><section class="section">
+  <h2>Why Safesip?</h2>
+  <p style="color:#bbb; max-width:550px; margin:10px auto 25px;">
+    Designed for refined environments where every detail matters. Safesip is not just protection—it's a statement of care, discretion, and elevated hospitality.
+  </p>
+  <div class="features">
+    <div class="feature">✦ Discreet protection without compromising presentation</div>
+    <div class="feature">✦ Crafted for hygiene-conscious, premium venues</div>
+    <div class="feature">✦ Enhances guest confidence and comfort</div>
+    <div class="feature">✦ Seamlessly integrates into luxury table settings</div>
+  </div>
+</section><section class="section">
+  <h2>For Premium Spaces</h2>
+  <p>Designed for establishments that prioritize customer care, hygiene, and brand image. Safesip blends seamlessly into luxury environments.</p>
+</section><section class="section">
+  <h2>Limited Availability</h2>
+  <p style="color:#d4af37; font-weight:500; max-width:500px; margin:10px auto;">
+    Currently accepting a limited number of premium venue partnerships.
+    Early adopters get priority access and exclusive pricing.
+  </p>
+</section><section class="section">
+  <h2>Reserve & Enquire</h2>
+  <p>Contact us on WhatsApp for pricing, bulk deals, and availability.</p>
+  <a href="https://wa.me/919572110442" class="whatsapp">Chat on WhatsApp</a> 
+  <p> Also explore us on instagram.<p/>
+  <a href="https://www.instagram.com/safesip_officials?igsh=ZXlrNzZ3ODBjajFo" 
+   target="_blank" 
+   class="instagram">
+   <span class="icon">📸</span> Explore Instagram
+</a>
+</div>
+</section><div class="footer">
+  <p>Contact: +91-9572110442</p>
+  <p>Email: safesipofficial@gmail.com</p>
+  <p>Insta: safesip_officials</p>
+  <p>© 2026 Safesip</p>
+</div></body>
+</html>
